@@ -1,8 +1,12 @@
 # Lytix
 Easy masternodes install script.
 
-Just launch the script 
+First give the right permissions
+sudo chmod +x lytixmenu.sh
+
+Then launch the script 
 ./lytixmenu.sh
+
 and follow the instructions carefully!
 
 PRE-REQUISITES:
