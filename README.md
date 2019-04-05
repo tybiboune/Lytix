@@ -13,6 +13,8 @@ PRE-REQUISITES:
 - 1 VPS with at least 1 CPU & 2 GB ram & a bit of harddisk (20 Go is fine), with UBUNTU 16.04 -> with this kind of configuration you can setup up to
   15 Lytix masternodes (for now).
   
+- a few ipv6 addresses pre-configured on your VPS (depending on the number of masternodes you plan to host... 15 masternodes = one ipv4 addresse + 14 ipv6 )- the way to do this depends on your VPS provider.  
+  
   
   To get your collateral transaction id & outputIndex, you need to wait at least 1 confirmation.
   
