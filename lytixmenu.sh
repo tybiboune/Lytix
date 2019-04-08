@@ -53,7 +53,6 @@ vi_editor=${EDITOR-vi}
 trap "rm $OUTPUT; rm $INPUT; exit" SIGHUP SIGINT SIGTERM
 
 
-
 ###########################################
 # make pre-conf  for ipv4 masternode
 ###########################################
