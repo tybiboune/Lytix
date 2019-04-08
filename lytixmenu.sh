@@ -13,6 +13,7 @@ coin_confname="lytix.conf"
 
 
 if [ ! -f "/usr/local/bin/$coin_daemon" ] ;  then
+  apt-get install ufw -y
   apt-get -y install wget nano htop jq dialog
   apt-get -y install libzmq3-dev
   apt-get -y install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
