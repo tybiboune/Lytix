@@ -1,5 +1,7 @@
 # Lytix
-Easy masternodes install script.
+Easy masternodes install script. - forked from meikel's multicoins install script
+
+currently ONLY works for masternodes, gonna adapt it to MAXnodes as soon as I can find the time
 
 First give the right permissions
 sudo chmod +x lytixmenu.sh
